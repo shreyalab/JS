@@ -1,1 +1,2 @@
 -> Initial commit
+-> My new notes learning how to commit to git.
