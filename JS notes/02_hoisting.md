@@ -37,3 +37,5 @@ var a = 10;
 ---
 
 Hoisting occurs during the **Memory Creation Phase** of the JavaScript Execution Context.
+
+-- Will resume from 27-dec
