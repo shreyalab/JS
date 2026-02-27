@@ -1,0 +1,74 @@
+## 1. Shortest JavaScript Program
+
+The shortest JS program is just an empty file.\
+Even then, when the browser runs that file, the JavaScript engine still
+does work behind the scenes.
+
+------------------------------------------------------------------------
+
+## 2. Global Execution Context & Window Object
+
+The global execution context creates a special object called **window**
+(in browsers).
+
+-   This object holds lots of built-in functions and variables available
+    globally.
+-   We can access these anywhere in the program.
+-   It also creates the `this` keyword.
+
+------------------------------------------------------------------------
+
+## 3. Global Execution Context
+
+When any JavaScript runs (even an empty file), the engine creates a
+**Global Execution Context (GEC)**.
+
+------------------------------------------------------------------------
+
+## 4. `this` at Global Level
+
+At the global level in a browser:
+
+-   `this` refers to the `window` object\
+-   So `this === window` is **true**
+
+------------------------------------------------------------------------
+
+## 5. Undefined vs Not Defined
+
+### Undefined
+
+-   Undefined is the placeholder which is placed in memory.
+-   A variable is declared but no value is assigned yet.
+
+### Not Defined
+
+-   The variable was never declared at all.
+
+------------------------------------------------------------------------
+
+## 6. JavaScript as a Loosely Typed Language
+
+JavaScript is known as a loosely typed (or weakly typed) language.
+
+-   Variables are not bound to a specific data type.
+-   Types are determined automatically at runtime.
+
+------------------------------------------------------------------------
+
+## 7. Scope, Scope Chain & Lexical Environment
+
+### Scope
+
+Scope is dependent on the lexical environment.\
+Scope is the area in a program where a variable can be accessed.
+
+### Scope Chain
+
+Scope chain is the mechanism JavaScript uses to search for variables in
+nested scopes.
+
+### Lexical Environment
+
+Lexical environment is the local memory along with the lexical
+environment of its parent.
