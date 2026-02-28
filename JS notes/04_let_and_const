@@ -1,0 +1,5 @@
+
+Memory is assigned to var and is attached to global object 
+
+let and const are allocated memory but are not stored in the global object
+ 
